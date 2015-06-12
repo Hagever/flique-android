@@ -1,1 +1,23 @@
 /* Empty. Add your own CSS if you like */
+
+.profile-picture{
+	width: 125px;
+	height: 125px;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+}
+
+.profile-div{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.profile-header{
+    display: flex;
+    
+}
+
+.profile-personal-info{
+    background-color: aquamarine;
+}

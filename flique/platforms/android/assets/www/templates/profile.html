@@ -1,3 +1,19 @@
-<div >
-    {{profile.image}}
-</div>
+<ion-view view-title={{profile.firstName}}>
+  <ion-content>
+        <div class="profile-div">
+            <div class="profile-header">
+                
+                <img class="profile-picture" src="{{profile.image}}"/> 
+                <div class="profile-info">
+                    <h3>{{profile.firstName}} {{profile.LastName}}</h3> 
+                    <h5>{{profile.work_place}} </h5>
+                    <h5>{{profile.flique_number}} Total fliQues</h5>
+                </div>
+            </div>
+            
+            <div class="profile-personal-info">
+                {{profile.personal_info}}
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
