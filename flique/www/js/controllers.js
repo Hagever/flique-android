@@ -53,4 +53,10 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
+})
+
+.controller('profileCtrl', function($scope) {
+  $scope.profile = {firstName:"Omri", LastName:"Lacman", image:"http://srv1.jpg.co.il/3/557b217151774.jpg"};
+
 });
+
